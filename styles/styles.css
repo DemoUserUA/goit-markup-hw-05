@@ -82,7 +82,7 @@ color: inherit
 margin-right: 40px;
 }
 .nav-link,
-.link-item,
+.nav-list-link,
 .address-link-mail,
 .address-link-tell {
 padding-top: 24px;
@@ -98,6 +98,7 @@ color: var(--accet-color);
 }
        
 .nav-list-link{
+display: flex;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -120,6 +121,7 @@ color: var(--accet-color-secondary);
 margin-right: 40px;
 }
 
+
 .current {
  position: relative;  
 }
@@ -128,7 +130,7 @@ margin-right: 40px;
 content: "";
 position: absolute;
 left: 0;
-bottom: -28px;
+bottom: 0;
 width: 100%;
 height: 4px;
 border-radius: 2px;
